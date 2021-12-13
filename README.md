@@ -7,7 +7,7 @@ of its inner expressions changed to Nand or Nor (part of the project).
 # Unary and Binary expressions
 There are a few expressions that are implemented in the code - each simple expression is a class:
 
-Not - This is the only unary expression in the code that is noted with ~(InnerExpression), it takes the evaluation of the inner expression inside the Not expression
+Not - This is the only unary expression in the code. It is noted with ~(InnerExpression), it takes the evaluation of the inner expression inside the Not expression
 and switches it; if the variable evaluates to be True, it will return False and vice versa.\
 Or - This is a binary expression noted with (InnerExpression1 | InnerExpression2) that evaluates to be True if at least one of its inner expressions evaluates to be True.\
 And - This is a binary experssion noted with (InnerExpression1 & InnerExpression2) that evaluates to be True if both of its inner expressions evaluate to be True.\
